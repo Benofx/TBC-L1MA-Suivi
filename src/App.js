@@ -41,7 +41,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mainMenu: { title: "Tableaux de bord", icon: "https://static.tpionet.com/L1MA-Suivi-Manifest/logo.png", command: "main_nav_menu_cliked", },
+      mainMenu: { title: "Tableaux de bord", icon: "https://static.tpionet.com/L1MA-Suivi/logo.png", command: "main_nav_menu_cliked", },
       /*subMenuItems: [
       { title: "Projet", icon: `https://images2.imgbox.com/49/1e/Nuz67Liq_o.png`, command: "submenu_1_clicked", },
       { title: "Data", icon: `https://images2.imgbox.com/49/1e/Nuz67Liq_o.png`, command: "submenu_2_clicked", },
