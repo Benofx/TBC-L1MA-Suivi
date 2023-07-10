@@ -41,7 +41,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mainMenu: { title: "Tableaux de bord", icon: "https://images2.imgbox.com/49/1e/Nuz67Liq_o.png", command: "main_nav_menu_cliked", },
+      mainMenu: { title: "Tableaux de bord", icon: "https://static.tpionet.com/L1MA-Suivi-Manifest/logo.png", command: "main_nav_menu_cliked", },
       /*subMenuItems: [
       { title: "Projet", icon: `https://images2.imgbox.com/49/1e/Nuz67Liq_o.png`, command: "submenu_1_clicked", },
       { title: "Data", icon: `https://images2.imgbox.com/49/1e/Nuz67Liq_o.png`, command: "submenu_2_clicked", },
@@ -64,15 +64,15 @@ class App extends React.Component {
               switch (args.data) {
                 case "main_nav_menu_cliked":
                   this.setState({ title: "Tableau de bords projet" });
-                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=9fc9c128-2287-4ead-9d5e-f0e0f1b6a689&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
+                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=2befda4c-1e77-45e3-b01e-1d901bb9bbe3&autoAuth=true&ctid=4a3d9983-e936-4837-9552-9d9126a92eb0" });
                   break;
                 case "submenu_1_clicked":
                   this.setState({ title: "Tableau de bords projet" });
-                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=9fc9c128-2287-4ead-9d5e-f0e0f1b6a689&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
+                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=2befda4c-1e77-45e3-b01e-1d901bb9bbe3&autoAuth=true&ctid=4a3d9983-e936-4837-9552-9d9126a92eb0" });
                   break;
                 case "submenu_2_clicked":
                   this.setState({ title: "Tableau de bords data"});
-                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=9fc9c128-2287-4ead-9d5e-f0e0f1b6a689&autoAuth=true&ctid=be0be093-a2ad-444c-93d9-5626e83beefc" });
+                  this.setState({ link: "https://app.powerbi.com/reportEmbed?reportId=2befda4c-1e77-45e3-b01e-1d901bb9bbe3&autoAuth=true&ctid=4a3d9983-e936-4837-9552-9d9126a92eb0" });
                 break;
               }
               break;
